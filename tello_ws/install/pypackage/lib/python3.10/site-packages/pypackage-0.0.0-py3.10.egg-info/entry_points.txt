@@ -1,0 +1,5 @@
+[console_scripts]
+center = pypackage.center:main
+control = pypackage.control:main
+tello_behavior = pypackage.tello_behavior:main
+

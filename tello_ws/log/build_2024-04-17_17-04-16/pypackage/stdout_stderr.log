@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/pypackage/pypackage.egg-info/PKG-INFO
+writing dependency_links to ../../build/pypackage/pypackage.egg-info/dependency_links.txt
+writing entry points to ../../build/pypackage/pypackage.egg-info/entry_points.txt
+writing requirements to ../../build/pypackage/pypackage.egg-info/requires.txt
+writing top-level names to ../../build/pypackage/pypackage.egg-info/top_level.txt
+reading manifest file '../../build/pypackage/pypackage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pypackage/pypackage.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pypackage/tello_behavior.py -> /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build/lib/pypackage
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build/lib/pypackage/tello_behavior.py -> /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage
+byte-compiling /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage/tello_behavior.py to tello_behavior.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pypackage/pypackage.egg-info to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing center script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+Installing control script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+Installing tello_behavior script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+writing list of installed files to '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log'

@@ -1,0 +1,26 @@
+[0.648s] Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello': PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[0.874s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.874s]   warnings.warn(
+[0.880s] running egg_info
+[0.881s] writing ../../build/tello/tello.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../build/tello/tello.egg-info/dependency_links.txt
+[0.881s] writing entry points to ../../build/tello/tello.egg-info/entry_points.txt
+[0.881s] writing requirements to ../../build/tello/tello.egg-info/requires.txt
+[0.881s] writing top-level names to ../../build/tello/tello.egg-info/top_level.txt
+[0.883s] reading manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[0.883s] adding license file 'LICENSE.txt'
+[0.883s] writing manifest file '../../build/tello/tello.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.884s] running install
+[0.884s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.884s]   warnings.warn(
+[0.884s] running install_lib
+[0.885s] running install_data
+[0.885s] running install_egg_info
+[0.887s] removing '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info' (and everything under it)
+[0.887s] Copying ../../build/tello/tello.egg-info to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages/tello-0.1.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.903s] Installing tello script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/tello
+[0.903s] writing list of installed files to '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/install.log'
+[0.921s] Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello' returned '0': PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed

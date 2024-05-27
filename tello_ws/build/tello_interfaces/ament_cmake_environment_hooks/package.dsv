@@ -1,0 +1,4 @@
+source;share/tello_interfaces/local_setup.bash
+source;share/tello_interfaces/local_setup.dsv
+source;share/tello_interfaces/local_setup.sh
+source;share/tello_interfaces/local_setup.zsh

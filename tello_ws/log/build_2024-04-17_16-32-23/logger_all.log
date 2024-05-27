@@ -1,0 +1,395 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a7725313d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a7725d4a920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a7725d4a920>>)
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/pypackage) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pypackage' with type 'ros.ament_python' and name 'pypackage'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello' with type 'ros.ament_python' and name 'tello'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_control) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_control' with type 'ros.ament_cmake' and name 'tello_control'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_interfaces) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_interfaces' with type 'ros.ament_cmake' and name 'tello_interfaces'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msg) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_msg' with type 'ros.ament_cmake' and name 'tello_msg'
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.320s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install
+[0.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'tello_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'tello_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control', 'merge_install': False, 'path': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_control', 'symlink_install': False, 'test_result_base': None}
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'tello_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'tello_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces', 'merge_install': False, 'path': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'tello_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'tello_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg', 'merge_install': False, 'path': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_msg', 'symlink_install': False, 'test_result_base': None}
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'tello' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'tello' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello', 'merge_install': False, 'path': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'pypackage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'pypackage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage', 'merge_install': False, 'path': '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage', 'symlink_install': False, 'test_result_base': None}
+[0.376s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_msg' with build type 'ament_cmake'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_msg'
+[0.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_interfaces' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_interfaces'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_control' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_control'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_msg -DCMAKE_INSTALL_PREFIX=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces -- -j16 -l16
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces -- -j16 -l16
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces
+[0.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_interfaces)
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_interfaces
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces' for CMake module files
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces' for CMake config files
+[0.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_interfaces', 'cmake_prefix_path')
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.dsv'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib'
+[0.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_interfaces', 'ld_library_path_lib')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.sh'
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/bin'
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib/pkgconfig/tello_interfaces.pc'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib/python3.10/site-packages'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/bin'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.zsh'
+[0.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/colcon-core/packages/tello_interfaces)
+[0.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_interfaces)
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces' for CMake module files
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_interfaces', 'cmake_prefix_path')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/cmake_prefix_path.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib'
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_interfaces', 'ld_library_path_lib')
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/hook/ld_library_path_lib.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/bin'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib/pkgconfig/tello_interfaces.pc'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/lib/python3.10/site-packages'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.sh'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.bash'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/tello_interfaces/package.zsh'
+[0.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/share/colcon-core/packages/tello_interfaces)
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_control -DCMAKE_INSTALL_PREFIX=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control -- -j16 -l16
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_msg -DCMAKE_INSTALL_PREFIX=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg -- -j16 -l16
+[4.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg -- -j16 -l16
+[4.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg
+[4.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msg)
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' for CMake module files
+[4.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_msg
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' for CMake config files
+[4.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'cmake_prefix_path')
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.ps1'
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.dsv'
+[4.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.sh'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib'
+[4.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'ld_library_path_lib')
+[4.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.ps1'
+[4.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.dsv'
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.sh'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/bin'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib/pkgconfig/tello_msg.pc'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib/python3.10/site-packages'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/bin'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.ps1'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.dsv'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.sh'
+[4.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.bash'
+[4.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.zsh'
+[4.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/colcon-core/packages/tello_msg)
+[4.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msg)
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' for CMake module files
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg' for CMake config files
+[4.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'cmake_prefix_path')
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.ps1'
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.dsv'
+[4.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/cmake_prefix_path.sh'
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib'
+[4.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msg', 'ld_library_path_lib')
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.ps1'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.dsv'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/hook/ld_library_path_lib.sh'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/bin'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib/pkgconfig/tello_msg.pc'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/lib/python3.10/site-packages'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/bin'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.ps1'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.dsv'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.sh'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.bash'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/tello_msg/package.zsh'
+[4.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/share/colcon-core/packages/tello_msg)
+[4.230s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello' with build type 'ament_python'
+[4.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello', 'ament_prefix_path')
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/ament_prefix_path.ps1'
+[4.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/ament_prefix_path.dsv'
+[4.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/ament_prefix_path.sh'
+[4.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.470s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello'
+[4.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello': PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[5.089s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello' for CMake module files
+[5.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello' returned '0': PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tello build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello/install.log --install-scripts $base/lib/tello --single-version-externally-managed
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello' for CMake config files
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/bin'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/pkgconfig/tello.pc'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages'
+[5.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello', 'pythonpath')
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/pythonpath.ps1'
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/pythonpath.dsv'
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/hook/pythonpath.sh'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/bin'
+[5.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello)
+[5.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/package.ps1'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/package.dsv'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/package.sh'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/package.bash'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/tello/package.zsh'
+[5.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/share/colcon-core/packages/tello)
+[5.095s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage' with build type 'ament_python'
+[5.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('pypackage', 'ament_prefix_path')
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/ament_prefix_path.ps1'
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/ament_prefix_path.dsv'
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/ament_prefix_path.sh'
+[5.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage'
+[5.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage': AMENT_PREFIX_PATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control:/opt/ros/humble PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pypackage build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log --single-version-externally-managed
+[5.958s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage' for CMake module files
+[5.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage' returned '0': AMENT_PREFIX_PATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control:/opt/ros/humble PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pypackage build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log --single-version-externally-managed
+[5.958s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage' for CMake config files
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib'
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/bin'
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pkgconfig/pypackage.pc'
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages'
+[5.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('pypackage', 'pythonpath')
+[5.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/pythonpath.ps1'
+[5.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/pythonpath.dsv'
+[5.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/hook/pythonpath.sh'
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/bin'
+[5.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pypackage)
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/package.ps1'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/package.dsv'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/package.sh'
+[5.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/package.bash'
+[5.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/pypackage/package.zsh'
+[5.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/share/colcon-core/packages/pypackage)
+[6.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --build /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control -- -j16 -l16
+[6.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control
+[6.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_control)
+[6.801s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' for CMake module files
+[6.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/opt/ros/humble /usr/bin/cmake --install /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/tello_control
+[6.801s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' for CMake config files
+[6.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_control', 'cmake_prefix_path')
+[6.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.ps1'
+[6.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.dsv'
+[6.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.sh'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/bin'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib/pkgconfig/tello_control.pc'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib/python3.10/site-packages'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/bin'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.ps1'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.dsv'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.sh'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.bash'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.zsh'
+[6.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/colcon-core/packages/tello_control)
+[6.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_control)
+[6.825s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' for CMake module files
+[6.825s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control' for CMake config files
+[6.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_control', 'cmake_prefix_path')
+[6.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.ps1'
+[6.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.dsv'
+[6.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/hook/cmake_prefix_path.sh'
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib'
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/bin'
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib/pkgconfig/tello_control.pc'
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/lib/python3.10/site-packages'
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/bin'
+[6.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.ps1'
+[6.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.dsv'
+[6.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.sh'
+[6.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.bash'
+[6.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/tello_control/package.zsh'
+[6.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control/share/colcon-core/packages/tello_control)
+[6.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.831s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.834s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.835s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.843s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/local_setup.ps1'
+[6.845s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/_local_setup_util_ps1.py'
+[6.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/setup.ps1'
+[6.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/local_setup.sh'
+[6.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/_local_setup_util_sh.py'
+[6.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/setup.sh'
+[6.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/local_setup.bash'
+[6.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/setup.bash'
+[6.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/local_setup.zsh'
+[6.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/setup.zsh'

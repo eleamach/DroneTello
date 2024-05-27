@@ -1,0 +1,6 @@
+msg/Coord.idl
+msg/Coord.msg
+srv/DroneMode.idl
+srv/DroneMode.srv
+srv/DroneMode_Request.msg
+srv/DroneMode_Response.msg

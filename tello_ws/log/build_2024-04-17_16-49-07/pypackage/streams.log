@@ -1,0 +1,34 @@
+[0.571s] Invoking command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage': AMENT_PREFIX_PATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control:/opt/ros/humble PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pypackage build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log --single-version-externally-managed
+[0.779s] running egg_info
+[0.779s] writing ../../build/pypackage/pypackage.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/pypackage/pypackage.egg-info/dependency_links.txt
+[0.780s] writing entry points to ../../build/pypackage/pypackage.egg-info/entry_points.txt
+[0.780s] writing requirements to ../../build/pypackage/pypackage.egg-info/requires.txt
+[0.780s] writing top-level names to ../../build/pypackage/pypackage.egg-info/top_level.txt
+[0.781s] reading manifest file '../../build/pypackage/pypackage.egg-info/SOURCES.txt'
+[0.781s] adding license file 'LICENSE'
+[0.782s] writing manifest file '../../build/pypackage/pypackage.egg-info/SOURCES.txt'
+[0.782s] running build
+[0.782s] running build_py
+[0.782s] copying pypackage/tello_behavior.py -> /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build/lib/pypackage
+[0.783s] running install
+[0.783s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.783s]   warnings.warn(
+[0.783s] running install_lib
+[0.783s] copying /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build/lib/pypackage/tello_behavior.py -> /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage
+[0.784s] byte-compiling /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage/tello_behavior.py to tello_behavior.cpython-310.pyc
+[0.784s]   File "/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage/tello_behavior.py", line 152
+[0.785s]     else
+[0.785s]         ^
+[0.785s] SyntaxError: expected ':'
+[0.785s] 
+[0.785s] running install_data
+[0.785s] running install_egg_info
+[0.786s] removing '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage-0.0.0-py3.10.egg-info' (and everything under it)
+[0.786s] Copying ../../build/pypackage/pypackage.egg-info to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages/pypackage-0.0.0-py3.10.egg-info
+[0.787s] running install_scripts
+[0.802s] Installing center script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+[0.802s] Installing control script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+[0.802s] Installing tello_behavior script to /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/pypackage
+[0.803s] writing list of installed files to '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log'
+[0.818s] Invoked command in '/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/pypackage' returned '0': AMENT_PREFIX_PATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_control:/opt/ros/humble PYTHONPATH=/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/prefix_override:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/pypackage/lib/python3.10/site-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_msg/local/lib/python3.10/dist-packages:/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/install/tello_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pypackage build --build-base /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/build install --record /home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/build/pypackage/install.log --single-version-externally-managed

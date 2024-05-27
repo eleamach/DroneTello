@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tello_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_interfaces/msg/detail/coord__type_support.cpp.o"
+  "CMakeFiles/tello_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_interfaces/msg/detail/coord__type_support.cpp.o.d"
+  "CMakeFiles/tello_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_interfaces/srv/detail/drone_mode__type_support.cpp.o"
+  "CMakeFiles/tello_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_interfaces/srv/detail/drone_mode__type_support.cpp.o.d"
+  "libtello_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libtello_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/tello_interfaces/msg/detail/coord__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tello_interfaces/msg/detail/coord__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/tello_interfaces/srv/detail/drone_mode__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/tello_interfaces/srv/detail/drone_mode__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tello_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

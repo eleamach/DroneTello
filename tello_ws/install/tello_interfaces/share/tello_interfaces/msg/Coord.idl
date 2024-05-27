@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tello_interfaces/msg/Coord.msg
+// generated code does not contain a copyright notice
+
+
+module tello_interfaces {
+  module msg {
+    struct Coord {
+      int64 coordx;
+
+      int64 coordy;
+    };
+  };
+};

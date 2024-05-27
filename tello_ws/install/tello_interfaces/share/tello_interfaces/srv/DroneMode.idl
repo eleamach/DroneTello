@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tello_interfaces/srv/DroneMode.srv
+// generated code does not contain a copyright notice
+
+
+module tello_interfaces {
+  module srv {
+    struct DroneMode_Request {
+      int32 a;
+    };
+    struct DroneMode_Response {
+      boolean reussi;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+source /opt/ros/humble/setup.bash
+
+pour sourcer environnement, se mettre dans /Documents.Tello/tello-ros2 et faire :
+source install/setup.bash
+
+Button
+0 -> A
+1 -> B
+2 -> X
+3 -> Y
+4 -> LB
+5 -> RB
+6 -> BACK
+7 -> START
+8 -> HOME
+9 -> JL
+10 -> JR

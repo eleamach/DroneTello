@@ -1,0 +1,7 @@
+{
+  "package_name": "tello_interfaces",
+  "non_idl_tuples": [
+    "/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_interfaces:srv/DroneMode.srv",
+    "/home/triton_07/Documents/framRobot/S1_G2_Machillot_Dridi/tello_ws/src/tello_interfaces:msg/Coord.msg"
+  ]
+}
